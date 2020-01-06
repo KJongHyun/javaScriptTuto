@@ -7,9 +7,58 @@ body {
     display: none;
 }
 
+.greeting {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 .showing {
     display: block;
 } 
+
+.nav {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.nav-rights-items {
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+.main {
+    
+
+}
+
+.todo {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.js-toDoForm {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.js-clock {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+input {
+    height: 20px;
+    width: 50%;
+    font-size: 1rem;
+}
 
 @keyframes fadeIn {
     from {
